@@ -17,7 +17,7 @@ public class Despesa {
     public String getDescricao() { return descricao; }
     public void setDescricao(String descricao) { this.descricao = descricao; }
 
-    public String getCategoria() { return favorecido; }
+    public String getFavorecido() { return favorecido; }
     public void setFavorecido(String favorecido) { this.favorecido = favorecido; }
 
     public double getValor() { return valor; }
@@ -25,6 +25,6 @@ public class Despesa {
 
     @Override
     public String toString() {
-        return "Despesa {descricao= " + descricao + ", favorecido= " + favorecido + ", valor= " + valor + "}";
+        return "\nDespesa:" + "\ndescricao = " + descricao + ", \nfavorecido = " + favorecido + ", \nvalor = " + valor + ";";
     } 
 }
