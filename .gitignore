@@ -1,0 +1,25 @@
+# Pastas de compilação (Arquivos que o Java gera ao rodar)
+target/
+bin/
+out/
+build/
+
+# Arquivos de classe individuais
+*.class
+
+# Arquivos de configuração do Eclipse (se você usar)
+.settings/
+.metadata/
+.classpath
+.project
+
+# Arquivos de configuração do IntelliJ (se você usar)
+.idea/
+*.iml
+
+# Arquivos de configuração do VS Code
+.vscode/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
